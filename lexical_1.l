@@ -8,7 +8,7 @@
 %%
 
 [a-zA-Z_][a-zA-Z0-9_]* {printf("Valid\n");}
-.+ {printf("Invalid\n");}
+. {printf("Invalid\n");}
 \n {return 0;}
 
 %%
